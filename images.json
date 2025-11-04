@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://via.placeholder.com/1600x900?text=Sofa+Premium+1",
+    "name": "Elegant Sofa Set",
+    "category": "Sofas",
+    "featured": true,
+    "title": "Elegant Sofa Set",
+    "subtitle": "Comfort meets style",
+    "aspect": "landscape"
+  },
+  {
+    "url": "https://via.placeholder.com/1200x1200?text=Dining+Table",
+    "name": "Dining Table Classic",
+    "category": "Dining",
+    "featured": false,
+    "aspect": "square"
+  },
+  {
+    "url": "https://via.placeholder.com/800x1200?text=Armchair",
+    "name": "Modern Armchair",
+    "category": "Chairs",
+    "featured": false,
+    "aspect": "portrait"
+  },
+  {
+    "url": "https://via.placeholder.com/1600x900?text=Bed+Frame",
+    "name": "Wooden Bed Frame",
+    "category": "Beds",
+    "featured": true,
+    "aspect": "landscape"
+  },
+  {
+    "url": "https://via.placeholder.com/1200x1200?text=Cabinet",
+    "name": "Storage Cabinet",
+    "category": "Storage",
+    "featured": false,
+    "aspect": "square"
+  }
+]
