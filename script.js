@@ -3,7 +3,7 @@ const imageData = {
   sofas: Array.from({ length: 8 }, (_, i) => `images/sofas/sofa${i + 1}.jpg`),
   beds: Array.from({ length: 46 }, (_, i) => `images/beds/bed${i + 1}.jpg`),
   tables: Array.from({ length: 3 }, (_, i) => `images/tables/table${i + 1}.jpg`),
-  almari: Array.from({ length: 5 }, (_, i) => `images/almari/almari${i + 1}.jpg`),
+  almari: Array.from({ length: 5 }, (_, i) => `images/Almari/almari${i + 1}.jpg`),
   showcase: Array.from({ length: 7 }, (_, i) => `images/showcase/showcase${i + 1}.jpg`),
 };
 
