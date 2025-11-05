@@ -2,6 +2,15 @@ body {
   scroll-behavior: smooth;
 }
 
+/* Hero Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeIn {
+  animation: fadeIn 1s ease both;
+}
+
 /* Category Buttons */
 .filter-btn {
   background: #fff;
@@ -44,7 +53,7 @@ body {
   box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
 
-/* Animation */
+/* Entry Animation */
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
@@ -99,4 +108,11 @@ body {
 /* Dragging Cursor */
 #lbImage.dragging {
   cursor: grabbing !important;
+}
+
+/* Mobile Hero Image */
+@media (max-width: 640px) {
+  header img {
+    object-position: center top;
+  }
 }
